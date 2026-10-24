@@ -20,6 +20,8 @@
     "ui:type": "npm run type -w packages/ui",
     "template:dev": "npm run dev -w packages/template",
     "template:build": "npm run build -w packages/template",
+    "kinetic:dev": "npm run dev -w packages/kinetic-text",
+    "kinetic:build": "npm run build -w packages/kinetic-text",
     "examples:dev": "npm run dev -w packages/examples",
     "examples:build": "npm run build -w packages/examples",
     "player:dev": "npm run dev -w packages/player",
@@ -33,7 +35,9 @@
     "eslint": "eslint \"**/*.ts?(x)\"",
     "eslint:fix": "eslint --fix \"**/*.ts?(x)\"",
     "prettier": "prettier --check .",
-    "prettier:fix": "prettier --write ."
+    "prettier:fix": "prettier --write .",
+    "reels:dev": "npm run dev -w packages/reels",
+    "reels:build": "npm run build -w packages/reels"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.4.0",
